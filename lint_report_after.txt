@@ -1,0 +1,20 @@
+﻿************* Module app.cli
+app\cli.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\cli.py:2:0: W0611: Unused save_tasks imported from app.tasks (unused-import)
+app\cli.py:2:0: W0611: Unused add_task imported from app.tasks (unused-import)
+************* Module app.storage
+app\storage.py:4:39: W0511: TODO: move to env var before release (fixme)
+************* Module app.tasks
+app\tasks.py:11:12: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+app\tasks.py:11:12: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+app\tasks.py:19:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+app\tasks.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\tasks.py:26:4: W0105: String statement has no effect (pointless-string-statement)
+app\tasks.py:64:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+app\tasks.py:73:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+app\tasks.py:83:8: W0101: Unreachable code (unreachable)
+app\tasks.py:79:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 8.27/10 (previous run: 8.33/10, -0.07)
+
