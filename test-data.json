@@ -1,0 +1,40 @@
+[
+  {
+    "id": "TC01",
+    "description": "Valid login with standard_user",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected": "success"
+  },
+  {
+    "id": "TC02",
+    "description": "Invalid login with locked_out_user",
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expected": "error",
+    "errorText": "Sorry, this user has been locked out."
+  },
+  {
+    "id": "TC03",
+    "description": "Invalid login with wrong password",
+    "username": "standard_user",
+    "password": "wrong_password",
+    "expected": "error",
+    "errorText": "Username and password do not match any user in this service"
+  },
+  {
+    "id": "TC04",
+    "description": "Valid login then add item to cart",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected": "cart",
+    "expectedCartCount": "1"
+  },
+  {
+    "id": "TC05",
+    "description": "Valid login then logout",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected": "logout"
+  }
+]
